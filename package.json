@@ -1,0 +1,24 @@
+{
+  "name": "koa-starter",
+  "version": "0.0.1",
+  "description": "A simple Koajs application starter template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justmyfreak/koa-starter.git"
+  },
+  "keywords": [
+    "koajs",
+    "mvc",
+    "template"
+  ],
+  "author": "Zainul Setyo Pamungkas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justmyfreak/koa-starter/issues"
+  },
+  "homepage": "https://github.com/justmyfreak/koa-starter"
+}
