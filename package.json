@@ -20,5 +20,23 @@
   "bugs": {
     "url": "https://github.com/justmyfreak/koa-starter/issues"
   },
-  "homepage": "https://github.com/justmyfreak/koa-starter"
+  "homepage": "https://github.com/justmyfreak/koa-starter",
+  "dependencies": {
+    "config": "^1.12.0",
+    "ect": "^0.5.9",
+    "koa": "^0.19.1",
+    "koa-bodyparser": "^1.5.0",
+    "koa-router": "^4.3.2",
+    "koa-static": "^1.4.9",
+    "koa-views": "^3.0.0",
+    "waterline": "^0.10.21"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^6.0.1",
+    "supertest": "^0.15.0"
+  },
+  "engines": {
+    "node": ">=0.11.x"
+  }
 }
