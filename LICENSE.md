@@ -1,0 +1,1 @@
+The koa-starter is licensed under the [MIT License](http://opensource.org/licenses/MIT)
