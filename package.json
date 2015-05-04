@@ -4,6 +4,7 @@
   "description": "A simple Koajs application starter template.",
   "main": "index.js",
   "scripts": {
+    "start": "node --harmony index.js",
     "test": "mocha --harmony"
   },
   "repository": {
