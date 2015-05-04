@@ -7,8 +7,8 @@ module.exports = function(app) {
 	router
 		.get('/', indexCtrl.index)
 		.get('/link/:id', function *(next) {
-			console.log('/link/'+this.params.id)
-			this.body = "Get value from params : "+ this.params.id
+			console.log('/link/'+this.params.id);
+			this.body = "Get value from params : "+ this.params.id;
 		});
 
 	app.use(router.middleware());
