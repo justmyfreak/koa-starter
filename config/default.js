@@ -9,7 +9,7 @@ module.exports = {
     template: {
         path: 'app/views',
         options: {
-            default: 'ect',
+            map: { ect: 'ect' }
         }
     },
     session: {

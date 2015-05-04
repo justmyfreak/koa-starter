@@ -7,6 +7,8 @@ var koa = require('koa'),
 var app = module.exports = koa();
 
 // initialize render helper
-app.use(views(config.template.path, {map: { ect: 'ect' }} ));
+app.use(views(config.template.path, config.template.options));
+
+require('./app/routes')(app);
 
 if (!module.parent) app.listen(3000);
