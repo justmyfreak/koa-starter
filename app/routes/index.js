@@ -9,7 +9,8 @@ module.exports = function(app) {
 		.get('/link/:id', function *(next) {
 			console.log('/link/'+this.params.id);
 			this.body = "Get value from params : "+ this.params.id;
-		});
+		})
+		.get('/render/view', indexCtrl.view);
 
 	app.use(router.middleware());
 };
