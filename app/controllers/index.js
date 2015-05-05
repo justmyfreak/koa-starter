@@ -8,5 +8,9 @@ module.exports = {
 			title: 'Render view template'
 		});
 		yield next;
+	},
+	
+	test: function *(next, id) {
+		this.body = "Get param from controller : "+this.params.id;
 	}
 };
