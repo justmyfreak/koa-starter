@@ -47,3 +47,8 @@ koajs-starter uses following npm package :
 * `koa-static` for handling static content or assets.
 * `koa-views` for template switching.
 * `ect` for default templatin engine due to fast performance.
+
+Resources
+=========
+
+* [https://justmyfreak.com/koa-starter-a-koa-starting-template/](https://justmyfreak.com/koa-starter-a-koa-starting-template/)
