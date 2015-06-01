@@ -40,7 +40,7 @@ $ npm test
 Components
 ==========
 
-koajs-starter uses following npm package : 
+koa-starter uses following npm package : 
 
 * `config` for config handling.
 * `koa-router` for request routing purpose.
